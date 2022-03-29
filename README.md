@@ -19,5 +19,24 @@ Remove the null values from the data
 Save the Clean data to the file
 
 
-# CODE
-# OUPUT
+# CODE:
+``
+import pandas as pd
+df = pd.read_csv("Data_set.csv")
+df.head(10)
+df.tail()
+df.info()
+df.isnull().sum()
+df['show_name']=df['show_name'].fillna(df['show_name'].mode(0))
+df.head()
+df['rating']=df['rating'].fillna(df['rating'].mean())
+df.info()
+df['rating']=df['rating'].fillna(df['rating'].mean())
+df.head(20)
+# OUPUT:
+``
+![output](.//d1.png)
+![output](.//d2.png)
+![output](.//d3.png)
+![output](.//d4.png)
+![output](.//d5.png)
