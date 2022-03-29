@@ -33,6 +33,7 @@ df['rating']=df['rating'].fillna(df['rating'].mean())
 df.info()
 df['rating']=df['rating'].fillna(df['rating'].mean())
 df.head(20)
+``
 # OUPUT:
 ``
 ![output](.//D1.png)
