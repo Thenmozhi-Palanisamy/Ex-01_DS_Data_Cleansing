@@ -35,8 +35,8 @@ df['rating']=df['rating'].fillna(df['rating'].mean())
 df.head(20)
 # OUPUT:
 ``
-![output](.//D1.png)
-![output](.//D2.png)
-![output](.//D3.png)
-![output](.//D4.png)
-![output](.//D5.png)
+![output](.//d1.png)
+![output](.//d2.png)
+![output](.//d3.png)
+![output](.//d4.png)
+![output](.//d5.png)
